@@ -31,6 +31,7 @@ description: Use when creating short Chinese Xiaohongshu cards explaining fronte
 5. 简洁正文
 6. 标签
 7. 术语准确性检查报告
+8. 与配图同目录的 `xiaohongshu-copy.md`
 
 ## 直接成品交付
 
@@ -40,7 +41,21 @@ description: Use when creating short Chinese Xiaohongshu cards explaining fronte
 2. 信息密度为中到高：第 1 页必须包含定义、用户可见场景和用途；第 2 页必须包含完整流程、相似术语对比和实现注意点。
 3. 术语定义、流程、比较结论和注意点必须进入最终成品图的排版。若需要后期排版，输出的是已经排好字的最终成品图；overlay 文案建议不算完成。
 4. 生成后直接展示配图，再给出标题、简洁正文和 5-10 个精准标签。
-5. 不得只生成纯插画底图、分镜或提示词；不得只输出分镜或提示词。只有 `image_gen` 不可用时，才说明原因并把每页完整提示词作为降级交付。
+5. 将最终标题、备选标题、带 emoji 的正文简介、标签和生成信息写入与 PNG 同目录的 `xiaohongshu-copy.md`，不能只显示在聊天中。
+6. 不得只生成纯插画底图、分镜或提示词；不得只输出分镜或提示词。只有 `image_gen` 不可用时，才说明原因并把每页完整提示词作为降级交付。
+
+## 文件交付
+
+每次生成图片都使用同一个输出目录：
+
+```text
+<output-dir>/
+├── 01-what-is-it.png
+├── 02-flow-and-compare.png
+└── xiaohongshu-copy.md
+```
+
+`xiaohongshu-copy.md` 必须保存本次实际交付的标题、备选标题、完整正文/简介、标签、页数、图片比例和术语检查结果。若用户指定了输出目录，严格使用用户目录；未指定时，在当前工作区创建主题目录后再保存图片和文案。
 
 ## 严格 3:4 成品检查
 
