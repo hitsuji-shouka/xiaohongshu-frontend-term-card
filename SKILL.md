@@ -16,6 +16,7 @@ description: Use when creating short Chinese Xiaohongshu cards explaining fronte
 - `references/attribution.md`
 - `references/complete-knowledge-card.md`
 - `references/xiaohongshu-copywriting.md`
+- `references/visual-quality-gates.md`
 
 必须遵守：3:4 竖版、白底、黑色手绘线稿、少量红蓝橙强调、角色参与核心动作。
 
@@ -75,6 +76,7 @@ description: Use when creating short Chinese Xiaohongshu cards explaining fronte
 5. 只选一个最容易混淆的相似术语比较。
 6. 需要代码时只给核心伪代码或简短片段。
 7. 检查可访问性、键盘操作、状态反馈和边界情况。
+8. 按 `references/visual-quality-gates.md` 检查是否出现空框、占位线、假搜索结果、标题重叠或九宫格堆砌；任一失败都必须重新生成或重新排版。
 
 ## 必须读取的参考
 
