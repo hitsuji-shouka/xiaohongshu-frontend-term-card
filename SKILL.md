@@ -15,6 +15,7 @@ description: Use when creating short Chinese Xiaohongshu cards explaining fronte
 - `references/xiaohongshu-layout.md`
 - `references/attribution.md`
 - `references/complete-knowledge-card.md`
+- `references/xiaohongshu-copywriting.md`
 
 必须遵守：3:4 竖版、白底、黑色手绘线稿、少量红蓝橙强调、角色参与核心动作。
 
@@ -94,15 +95,17 @@ description: Use when creating short Chinese Xiaohongshu cards explaining fronte
 
 ## 发布文案
 
+先读取 `references/xiaohongshu-copywriting.md`。发布文案必须是可直接粘贴到小红书的格式，不得只给一段平铺的术语定义。
+
 交付图片后，必须给出与该轮播一一对应、可直接发布的以下内容：
 
 ```text
 标题：1 个最终标题，另附 2 个备选标题
-简介：80-160 字，说明术语是什么、用户会在哪里看到它、为什么要理解它
+正文/简介：2-5 个短段，使用 4-8 个有语义的 emoji，至少 3 个分点；说明术语是什么、用户会在哪里看到它、为什么要理解它
 标签：5-10 个精准标签，覆盖术语、前端或产品语境和受众
 ```
 
-标题要直白解释术语或提出用户可感知的问题；简介要自然、简洁，避免把术语说成所有团队都采用的标准；标签不得使用无关热门词。
+标题要直白解释术语或提出用户可感知的问题；正文要有 `📌`、`✅`、`⚠️`、`💡`、`💾` 等清晰层次，并明确一个易混淆术语；标签不得使用无关热门词。
 
 ## 禁止
 
