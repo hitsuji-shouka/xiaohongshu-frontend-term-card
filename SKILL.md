@@ -14,6 +14,7 @@ description: Use when creating short Chinese Xiaohongshu cards explaining fronte
 - `references/visual-style.md`
 - `references/xiaohongshu-layout.md`
 - `references/attribution.md`
+- `references/complete-knowledge-card.md`
 
 必须遵守：3:4 竖版、白底、黑色手绘线稿、少量红蓝橙强调、角色参与核心动作。
 
@@ -33,11 +34,11 @@ description: Use when creating short Chinese Xiaohongshu cards explaining fronte
 
 除非用户明确只要脚本、分镜或提示词，否则必须直接完成可发布交付：
 
-1. 必须调用内置 `image_gen`，直接生成 1-2 张独立的 3:4 竖版配图；不能只描述“应该怎么画”。
-2. 图中只保留极短标签，术语定义、比较结论和代码作为准确 overlay 文案提供。
-3. 生成后直接展示配图，再给出标题、简洁正文和 5-10 个精准标签。
-4. 单页只讲一个术语与一个易混淆概念，避免把短卡扩成教程。
-5. 不得只输出分镜或提示词。只有 `image_gen` 不可用时，才说明原因并把每页完整提示词作为降级交付。
+1. 必须调用内置 `image_gen`，直接生成 1-2 张独立的 3:4 竖版完整知识卡；不能只描述“应该怎么画”。
+2. 信息密度为中到高：第 1 页必须包含定义、用户可见场景和用途；第 2 页必须包含完整流程、相似术语对比和实现注意点。
+3. 术语定义、流程、比较结论和注意点必须进入最终成品图的排版。若需要后期排版，输出的是已经排好字的最终成品图；overlay 文案建议不算完成。
+4. 生成后直接展示配图，再给出标题、简洁正文和 5-10 个精准标签。
+5. 不得只生成纯插画底图、分镜或提示词；不得只输出分镜或提示词。只有 `image_gen` 不可用时，才说明原因并把每页完整提示词作为降级交付。
 
 ## 默认结构
 
